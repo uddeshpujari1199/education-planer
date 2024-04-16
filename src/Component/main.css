@@ -1,0 +1,38 @@
+.text-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.text-box input, button{
+    padding: 5px;
+}
+.text-box .Hours{
+    width: 5%;
+}
+.text-box button{
+    background-color: rgb(39, 156, 228);
+    border: none;
+    padding: 10px;
+}
+.card{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.card button{
+    padding: 10px;
+}
+.card .add{
+    background-color: rgb(59, 225, 59);
+    border: none;
+    border-radius: 10px;
+}
+.card .dele{
+    background-color: rgb(228, 28, 28);
+    border: none;
+    border-radius: 10px;
+}
